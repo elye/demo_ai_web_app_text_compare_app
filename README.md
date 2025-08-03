@@ -1,6 +1,8 @@
 # Text Comparison React Apps – Project Overview & Comparison
 
-This repository contains three different implementations of a text comparison tool, each built with React and Vite, and styled with Tailwind CSS. The apps allow users to compare two pieces of text side by side, with visual highlighting of differences. Each project explores different approaches and technologies, providing a useful reference for React developers.
+
+This repository contains four different implementations of a text comparison tool, each built with React and Vite, and styled with Tailwind CSS. The apps allow users to compare two pieces of text side by side, with visual highlighting of differences. Each project explores different approaches and technologies, providing a useful reference for React developers.
+
 
 ## Projects in This Repository
 
@@ -37,15 +39,28 @@ A robust implementation using React with TypeScript, Vite, and comprehensive lin
 - **Strengths:** Best code quality, maintainability, and documentation
 - **Areas to Improve:** Add error handling and automated tests
 
+### 4. compare-text-claude-4-0-cline
+A modern React app using Vite and Tailwind CSS, inspired by the Claude 4-0 approach but implemented in JavaScript. It features a clean, user-friendly UI and real-time diff visualization.
+
+- **Tech Stack:** React 18, Vite, Tailwind CSS, Diff.js
+- **Features:**
+  - Side-by-side text comparison
+  - Real-time word/character diff highlighting
+  - Responsive, modern UI
+  - Simple controls and summary
+- **Strengths:** Clean UI, easy to use, minimal dependencies
+- **Areas to Improve:** No TypeScript, no linting, no automated tests, no project-level README
+
 ---
 
 ## Project Comparison
 
-| Project                        | Code Quality | Architecture | Dependencies | Security | Performance | Error Handling | Testing | Documentation | Best Practices |
-|--------------------------------|--------------|--------------|--------------|----------|-------------|----------------|---------|---------------|----------------|
-| compare-text-chatgpt-4-1        | Good         | Good         | Good         | OK       | Good        | Minimal        | None    | Good          | Good           |
+| Project                             | Code Quality | Architecture | Dependencies | Security | Performance | Error Handling | Testing | Documentation | Best Practices |
+|-------------------------------------|--------------|--------------|--------------|----------|-------------|----------------|---------|---------------|----------------|
+| compare-text-chatgpt-4-1            | Good         | Good         | Good         | OK       | Good        | Minimal        | None    | Good          | Good           |
 | compare-text-chatgpt-4-1-beast-mode | Basic        | Basic        | Minimal      | OK       | Good        | Minimal        | None    | None          | Basic          |
-| compare-text-claude-4-0         | Excellent    | Excellent    | Excellent    | OK       | Excellent   | Minimal        | None    | Excellent     | Excellent      |
+| compare-text-claude-4-0             | Excellent    | Excellent    | Excellent    | OK       | Excellent   | Minimal        | None    | Excellent     | Excellent      |
+| compare-text-claude-4-0-cline       | Good         | Good         | Good         | OK       | Good        | Minimal        | None    | None          | Good           |
 
 ---
 
